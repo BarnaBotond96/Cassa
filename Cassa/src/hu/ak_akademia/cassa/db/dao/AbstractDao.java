@@ -14,8 +14,8 @@ import hu.ak_akademia.cassa.db.sqlbuilder.SqlBuilder;
 
 public abstract class AbstractDao<E> implements Dao<E> {
 
-	private static final String PASSWORD = "password";
-	private static final String USER = "user";
+	private static final String PASSWORD = "admin";
+	private static final String USER = "postgres";
 	private static final String HOST = "jdbc:postgresql://localhost:5432/Cassa";
 
 	@Override
